@@ -1,12 +1,12 @@
 import { useState } from 'react'
 import { CalendarPlus } from 'lucide-react'
-import type { Conflict, Prefill, Reservation, ResourceId } from '../types'
-import { resources } from '../data/mock'
-import { conflictedIds } from '../lib/conflicts'
-import { fmtDate, fmtDay, fmtWeekday, todayISO } from '../lib/date'
-import { windowDates } from '../lib/stats'
-import Badge from '../components/Badge'
-import { ResourceTag } from '../components/ResourceTag'
+import type { Conflict, Prefill, Reservation, ResourceId } from './types'
+import { resources } from './mock'
+import { conflictedIds } from './conflicts'
+import { fmtDate, fmtDay, fmtWeekday, todayISO } from './date'
+import { windowDates } from './stats'
+import Badge from './Badge'
+import { ResourceTag } from './ResourceTag'
 
 interface Props {
   reservations: Reservation[]
