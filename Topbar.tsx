@@ -1,5 +1,5 @@
 import { Bell, Plus, Search } from 'lucide-react'
-import type { Page } from '../types'
+import type { Page } from './types'
 
 const titles: Record<Page, { title: string; sub: string }> = {
   dashboard: { title: 'Dashboard', sub: 'Resource availability for the next two weeks' },
