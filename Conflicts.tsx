@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { ArrowRight, CheckCircle2, Lightbulb, ShieldCheck } from 'lucide-react'
-import type { Conflict, Prefill, Reservation } from '../types'
-import { fmtDate, timeAgo } from '../lib/date'
-import Badge from '../components/Badge'
-import { ResourceTag, resourceById } from '../components/ResourceTag'
+import type { Conflict, Prefill, Reservation } from './types'
+import { fmtDate, timeAgo } from './date'
+import Badge from '.Badge'
+import { ResourceTag, resourceById } from './ResourceTag'
 
 interface Props {
   reservations: Reservation[]
