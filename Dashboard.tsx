@@ -1,11 +1,11 @@
 import { Activity, AlertTriangle, ArrowRight, Boxes, CalendarCheck } from 'lucide-react'
-import type { Conflict, Page, Prefill, Reservation } from '../types'
-import { resources } from '../data/mock'
-import { bookedMinutes, heatClass, overallUtilization, windowDates } from '../lib/stats'
-import { fmtDate, fmtDay, fmtWeekday, timeAgo, todayISO } from '../lib/date'
-import StatCard from '../components/StatCard'
-import Badge from '../components/Badge'
-import { ResourceTag, resourceById, resourceIcons } from '../components/ResourceTag'
+import type { Conflict, Page, Prefill, Reservation } from './types'
+import { resources } from './mock'
+import { bookedMinutes, heatClass, overallUtilization, windowDates } from './stats'
+import { fmtDate, fmtDay, fmtWeekday, timeAgo, todayISO } from './date'
+import StatCard from './StatCard'
+import Badge from './Badge'
+import { ResourceTag, resourceById, resourceIcons } from './ResourceTag'
 
 interface Props {
   reservations: Reservation[]
