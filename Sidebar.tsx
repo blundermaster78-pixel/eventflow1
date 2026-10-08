@@ -1,6 +1,6 @@
 import { AlertTriangle, BarChart3, Boxes, CalendarDays, ClipboardList, LayoutDashboard, Layers } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
-import type { Page } from '../types'
+import type { Page } from './types'
 
 const items: { id: Page; label: string; icon: LucideIcon }[] = [
   { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
