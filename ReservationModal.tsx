@@ -12,10 +12,10 @@ import {
   Sparkles,
   X,
 } from 'lucide-react'
-import type { AltSlot, Conflict, Prefill, Reservation, ResourceHit, ResourceId } from '../types'
-import { eventTemplates, resources } from '../data/mock'
-import { checkAvailability, DAY_END, DAY_START, findAlternatives, WINDOW_DAYS } from '../lib/conflicts'
-import { addDays, fmtDate, fromMin, toMin, todayISO } from '../lib/date'
+import type { AltSlot, Conflict, Prefill, Reservation, ResourceHit, ResourceId } from './types'
+import { eventTemplates, resources } from './mock'
+import { checkAvailability, DAY_END, DAY_START, findAlternatives, WINDOW_DAYS } from '.conflicts'
+import { addDays, fmtDate, fromMin, toMin, todayISO } from './date'
 import { useToast } from './Toast'
 import { resourceById, resourceIcons } from './ResourceTag'
 
