@@ -1,6 +1,6 @@
 import { Activity, CalendarClock, ShieldCheck, Trophy } from 'lucide-react'
 import type { Conflict, Reservation } from '../types'
-import { resources } from '../data/mock'
+import { resources } from '../mock'
 import { fmtDate, fmtDay, fmtWeekday } from '../lib/date'
 import { overallUtilization, utilization, windowDates } from '../lib/stats'
 import StatCard from '../components/StatCard'
