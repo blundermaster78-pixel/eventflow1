@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { CalendarPlus, Search } from 'lucide-react'
-import type { Category, Prefill, Reservation } from '../types'
-import { resources } from '../data/mock'
-import { toMin, fmtDate, todayISO } from '../lib/date'
-import { utilization, windowDates } from '../lib/stats'
-import Badge from '../components/Badge'
-import { resourceIcons } from '../components/ResourceTag'
+import type { Category, Prefill, Reservation } from './types'
+import { resources } from './mock'
+import { toMin, fmtDate, todayISO } from './date'
+import { utilization, windowDates } from './stats'
+import Badge from './Badge'
+import { resourceIcons } from './ResourceTag'
 
 const categories: (Category | 'All')[] = ['All', 'Staging', 'Power', 'Audio', 'Visual', 'Furniture']
 
