@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { Search, Trash2 } from 'lucide-react'
 import type { Conflict, Reservation, ReservationStatus, ResourceId } from '../types'
-import { resources } from '../data/mock'
-import { conflictedIds } from '../lib/conflicts'
-import { fmtDate } from '../lib/date'
-import Badge from '../components/Badge'
-import { ResourceTag } from '../components/ResourceTag'
+import { resources } from './mock'
+import { conflictedIds } from './conflicts'
+import { fmtDate } from './date'
+import Badge from './Badge'
+import { ResourceTag } from './ResourceTag'
 
 interface Props {
   reservations: Reservation[]
