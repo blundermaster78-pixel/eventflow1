@@ -1,10 +1,10 @@
 import { Activity, CalendarClock, ShieldCheck, Trophy } from 'lucide-react'
-import type { Conflict, Reservation } from '../types'
-import { resources } from '../mock'
-import { fmtDate, fmtDay, fmtWeekday } from '../lib/date'
-import { overallUtilization, utilization, windowDates } from '../lib/stats'
-import StatCard from '../components/StatCard'
-import { resourceIcons } from '../components/ResourceTag'
+import type { Conflict, Reservation } from './types'
+import { resources } from './mock'
+import { fmtDate, fmtDay, fmtWeekday } from './date'
+import { overallUtilization, utilization, windowDates } from './stats'
+import StatCard from './StatCard'
+import { resourceIcons } from './ResourceTag'
 
 interface Props {
   reservations: Reservation[]
